@@ -1,0 +1,8 @@
+.TodaySummary {
+  background-color: rgb(255, 255, 255);
+  margin-right: 8px;
+}
+
+.TodaySummary h4 {
+  padding-left: 15px;
+}

@@ -1,0 +1,88 @@
+/* You can add global styles to this file, and also import other style files */
+* {
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #eff0f1;
+}
+
+.col-sm-3, .col-sm-6, .col-sm-9, .col-sm-12, .col-sm-4 {
+  display: inline-block;
+  min-width: 200px;
+  vertical-align: top;
+}
+  
+.col-sm-3 {  
+  width: 25%
+}
+
+.col-sm-6 {
+  width: 50%
+}
+
+.col-sm-9 {
+  width: 75%
+}
+
+.col-sm-12 {
+  width: 100%
+}
+
+.col-sm-4 {
+  width: 33.33%
+}
+
+.value {
+ text-anchor: middle;
+ line-height: 1.42857143;
+ color: #333;
+ font-size: 28px;
+ font-weight: initial;
+ text-align: left;
+}
+
+.grid {
+  border-right: 2px solid  rgba(0, 0, 0, 0.12);
+  border-collapse: collapse;
+}
+
+.grid * {
+  padding-left: 15px; 
+}
+
+.label{
+  color: #FF4470;
+  font-weight: 500;
+  font-size: small;
+  padding-bottom: 15px;
+}
+
+.description {
+  font-weight: 600;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 12px;
+  line-height: 24px;
+}
+
+@media only screen and (max-width: 800px) {
+  .col-sm-3 {  
+    width: 100%
+  }
+  
+  .col-sm-9 {
+    width: 100%
+  }
+  
+  .col-sm-12 {
+    width: 100%
+  }
+  
+  .col-sm-4 {
+    width: 33.33%
+  }
+
+  .col-sm-4 {  
+    width: 100%
+  }
+}

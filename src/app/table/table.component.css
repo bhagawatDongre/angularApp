@@ -1,0 +1,38 @@
+.tablecontainer {
+  padding: 10px;
+}
+
+@media only screen and (max-width: 460px) {
+  .tablecontainer {
+    overflow-x: scroll;
+  }  
+}
+
+table {
+  width:100%;
+  text-align: left;
+}
+
+table > thead > tr, table > tbody > tr {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+table, td, th {
+  font-size: 12px;
+  font-weight:600;
+  text-align: left;
+  border-collapse: collapse;
+}
+
+.tabletitle{
+  color: #999;
+  font-weight: 600;
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.5;
+  font-size: small;
+  padding: 10px;
+}
+
+th {
+  background-color: #f3f3f3bd;
+}

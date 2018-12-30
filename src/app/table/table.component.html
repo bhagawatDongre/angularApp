@@ -1,0 +1,27 @@
+<div class="tablecontainer">
+  <div class="tabletitle">{{tableTitel}}</div>
+  <table class="table">
+      <thead>
+          <tr>
+              <th *ngFor="let column of tablecol">
+                  {{column}}
+              </th>
+          </tr>
+      </thead>
+      <tbody>
+          <tr *ngFor="let data of tableData;  let idx = index">
+              <!-- logic which kind of table cell should be shown -->
+              <ng-container *ngIf="idx % 2 === 0" >
+                <td *ngFor="let column1 of tablecol">
+                    <app-tablecell></app-tablecell>
+                </td>
+              </ng-container>
+              <ng-container *ngIf="idx % 2 !== 0" >
+                <td *ngFor="let column1 of tablecol">
+                  <app-tablecell2></app-tablecell2>
+                </td>
+              </ng-container>
+          </tr>
+      </tbody>
+  </table>
+</div>

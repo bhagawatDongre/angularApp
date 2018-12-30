@@ -1,0 +1,5 @@
+<div class = "TodaySummary">
+  <h4>{{header}}</h4>
+   <!-- logic which kind of dashboard grid should be shown -->
+  <app-dashboardgrid class = "col-sm-4" *ngFor="let grid of gridDetails"  [grid]="grid"></app-dashboardgrid>
+</div>

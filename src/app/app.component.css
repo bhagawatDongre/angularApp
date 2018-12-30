@@ -1,0 +1,16 @@
+h1 {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.customNav,
+.defaultNav {
+  width: 100px; 
+  display: inline-block;
+  color: #999;
+  font-weight: 600;
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.5;
+  font-size: small;
+}
+

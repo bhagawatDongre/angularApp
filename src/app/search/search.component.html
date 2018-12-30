@@ -1,0 +1,6 @@
+<div class = "col-sm-12 search">
+  <h4>{{title}}</h4>
+  <input #searchBox id="search-box" placeholder = "What are you looking for?" (input)="search(searchBox.value)" />
+  <app-search-result *ngFor="let num of numbers" ></app-search-result>
+  <div class= "smartSenseLink"><a href="#">WHAT CAN I ASK SMARTSENSE?</a></div>
+</div>
